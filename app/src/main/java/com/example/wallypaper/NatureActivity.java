@@ -39,7 +39,7 @@ public class NatureActivity extends AppCompatActivity implements View.OnClickLis
         loadWallpaper();
     }
     void loadWallpaper(){
-            wallpapers = new int[5];
+            wallpapers = new int[7];
             wallpapers[0] = R.drawable.nature1;
             wallpapers[1] = R.drawable.nature2;
             wallpapers[2] = R.drawable.nature3;

@@ -106,8 +106,8 @@
 
         <ImageButton
             android:id="@+id/nature4"
-            android:layout_width="306dp"
-            android:layout_height="364dp"
+            android:layout_width="253dp"
+            android:layout_height="435dp"
             android:layout_marginStart="88dp"
             android:layout_marginTop="92dp"
             android:layout_marginEnd="56dp"
@@ -131,29 +131,30 @@
 
         <ImageButton
             android:id="@+id/nature2"
-            android:layout_width="297dp"
-            android:layout_height="463dp"
+            android:layout_width="267dp"
+            android:layout_height="435dp"
             android:layout_marginStart="130dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="32dp"
             android:layout_marginEnd="154dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintHorizontal_bias="0.385"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nature2_text"
             app:srcCompat="@drawable/nature2" />
 
         <ImageButton
             android:id="@+id/nature3"
-            android:layout_width="294dp"
-            android:layout_height="417dp"
+            android:layout_width="264dp"
+            android:layout_height="418dp"
             android:layout_marginStart="88dp"
-            android:layout_marginTop="92dp"
+            android:layout_marginTop="80dp"
             android:layout_marginEnd="87dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintHorizontal_bias="0.321"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nature3_text"
             app:srcCompat="@drawable/nature3" />
+
         <ImageButton
             android:id="@+id/nature5"
             android:layout_width="294dp"
@@ -166,6 +167,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nature5_text"
             app:srcCompat="@drawable/nature5" />
+
         <ImageButton
             android:id="@+id/nature6"
             android:layout_width="294dp"
@@ -173,10 +175,12 @@
             android:layout_marginStart="88dp"
             android:layout_marginTop="92dp"
             android:layout_marginEnd="87dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nature6_text"
             app:srcCompat="@drawable/nature6" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
