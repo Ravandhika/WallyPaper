@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.wallypaper.Fragments.AboutFragment;
 
@@ -26,5 +27,18 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void NatureActivityHandler(View view) {
+
+    }
+
+    public void AnimalActivityHandler(View view) {
+    }
+
+    public void GameActivityHandler(View view) {
+    }
+
+    public void MinimalistActivityHandler(View view) {
     }
 }

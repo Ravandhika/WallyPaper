@@ -17,9 +17,10 @@
 
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/animal"
             android:layout_width="326dp"
             android:layout_height="92dp"
+            android:onClick="AnimalActivityHandler"
             android:layout_marginTop="208dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.552"
@@ -29,7 +30,8 @@
             app:srcCompat="@drawable/when_youre_feeling_insecure" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/game"
+            android:onClick="GameActivityHandler"
             android:layout_width="325dp"
             android:layout_height="103dp"
             android:layout_marginTop="368dp"
@@ -41,10 +43,11 @@
             app:srcCompat="@drawable/gaming_is_my_favorite_past_activity" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/nature"
             android:layout_width="325dp"
             android:layout_height="107dp"
             android:layout_marginTop="32dp"
+            android:onClick="NatureActivityHandler"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.511"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +57,8 @@
             />
 
         <ImageButton
-            android:id="@+id/imageButton8"
+            android:id="@+id/minimalist"
+            android:onClick="MinimalistActivityHandler"
             android:layout_width="324dp"
             android:layout_height="85dp"
             android:layout_marginTop="560dp"
@@ -125,6 +129,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="425dp"
