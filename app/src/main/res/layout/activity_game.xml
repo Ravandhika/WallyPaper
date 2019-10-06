@@ -1,9 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameActivity">
+    android:background="#77020000"
+    android:clickable="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77020000"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/nature1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginEnd="248dp"
+            android:text="Titanfall"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nature2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="248dp"
+            android:text="Assassin Creed"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature1" />
+
+        <TextView
+            android:id="@+id/nature3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="248dp"
+            android:text="One Piece"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature2" />
+
+        <TextView
+            android:id="@+id/nature4_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="178dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="178dp"
+            android:text="Archer"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature3" />
+
+        <TextView
+            android:id="@+id/nature5_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="2488dp"
+            android:layout_marginEnd="248dp"
+            android:text="Fallout"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nature6_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="3196dp"
+            android:layout_marginEnd="248dp"
+            android:text="Angry Birds"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/nature1"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="38dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature1_text"
+            app:srcCompat="@drawable/game1" />
+
+        <ImageButton
+            android:id="@+id/nature2"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="154dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.385"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature2_text"
+            app:srcCompat="@drawable/game2" />
+
+        <ImageButton
+            android:id="@+id/nature3"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="87dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature3_text"
+            app:srcCompat="@drawable/game3" />
+
+        <ImageButton
+            android:id="@+id/nature4"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.265"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature4_text"
+            app:srcCompat="@drawable/game4" />
+
+        <ImageButton
+            android:id="@+id/nature5"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="87dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature5_text"
+            app:srcCompat="@drawable/game5" />
+
+        <ImageButton
+            android:id="@+id/nature6"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="87dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nature6_text"
+            app:srcCompat="@drawable/game6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
