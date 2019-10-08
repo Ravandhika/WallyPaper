@@ -19,49 +19,7 @@
 
 
         <TextView
-            android:id="@+id/nature4_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="178dp"
-            android:layout_marginTop="71dp"
-            android:layout_marginEnd="178dp"
-            android:text="Duck"
-            android:textColor="#F2FFFFFF"
-            android:textSize="36sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature3" />
-
-        <TextView
-            android:id="@+id/nature3_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="248dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="248dp"
-            android:text="Blue Butterfly"
-            android:textColor="#F2FFFFFF"
-            android:textSize="36sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature2" />
-
-        <TextView
-            android:id="@+id/nature2_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="248dp"
-            android:layout_marginTop="61dp"
-            android:layout_marginEnd="248dp"
-            android:text="Black Cat"
-            android:textColor="#F2FFFFFF"
-            android:textSize="36sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature1" />
-
-        <TextView
-            android:id="@+id/nature1_text"
+            android:id="@+id/animal1_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="248dp"
@@ -75,7 +33,49 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/nature5_text"
+            android:id="@+id/animal2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="248dp"
+            android:text="Black Cat"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/animal1" />
+
+        <TextView
+            android:id="@+id/animal3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="248dp"
+            android:text="Blue Butterfly"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/animal2" />
+
+        <TextView
+            android:id="@+id/animal4_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="178dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="178dp"
+            android:text="Duck"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/animal3" />
+
+        <TextView
+            android:id="@+id/animal5_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="248dp"
@@ -90,7 +90,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/nature6_text"
+            android:id="@+id/animal6_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="248dp"
@@ -104,20 +104,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/nature4"
-            android:layout_width="274dp"
-            android:layout_height="427dp"
-            android:layout_marginStart="88dp"
-            android:layout_marginTop="92dp"
-            android:layout_marginEnd="56dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.265"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature4_text"
-            app:srcCompat="@drawable/animal4" />
-
-        <ImageButton
-            android:id="@+id/nature1"
+            android:id="@+id/animal1"
             android:layout_width="274dp"
             android:layout_height="427dp"
             android:layout_marginStart="38dp"
@@ -125,11 +112,11 @@
             android:layout_marginEnd="38dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature1_text"
+            app:layout_constraintTop_toBottomOf="@+id/animal1_text"
             app:srcCompat="@drawable/animal1" />
 
         <ImageButton
-            android:id="@+id/nature2"
+            android:id="@+id/animal2"
             android:layout_width="274dp"
             android:layout_height="427dp"
             android:layout_marginStart="130dp"
@@ -138,11 +125,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.385"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature2_text"
+            app:layout_constraintTop_toBottomOf="@+id/animal2_text"
             app:srcCompat="@drawable/animal2" />
 
         <ImageButton
-            android:id="@+id/nature3"
+            android:id="@+id/animal3"
             android:layout_width="274dp"
             android:layout_height="427dp"
             android:layout_marginStart="88dp"
@@ -151,11 +138,24 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.321"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature3_text"
+            app:layout_constraintTop_toBottomOf="@+id/animal3_text"
             app:srcCompat="@drawable/animal3" />
 
         <ImageButton
-            android:id="@+id/nature5"
+            android:id="@+id/animal4"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.265"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/animal4_text"
+            app:srcCompat="@drawable/animal4" />
+
+        <ImageButton
+            android:id="@+id/animal5"
             android:layout_width="274dp"
             android:layout_height="427dp"
             android:layout_marginStart="88dp"
@@ -164,11 +164,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature5_text"
+            app:layout_constraintTop_toBottomOf="@+id/animal5_text"
             app:srcCompat="@drawable/animal5" />
 
         <ImageButton
-            android:id="@+id/nature6"
+            android:id="@+id/animal6"
             android:layout_width="274dp"
             android:layout_height="427dp"
             android:layout_marginStart="88dp"
@@ -178,7 +178,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nature6_text"
+            app:layout_constraintTop_toBottomOf="@+id/animal6_text"
             app:srcCompat="@drawable/animal6" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

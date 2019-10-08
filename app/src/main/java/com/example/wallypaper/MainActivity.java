@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -18,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
         aboutFragment = AboutFragment.newInstance("Adetya Ravandhika");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
     }
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
