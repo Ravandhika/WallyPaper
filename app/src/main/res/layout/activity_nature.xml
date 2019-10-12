@@ -17,8 +17,6 @@
         android:layout_height="wrap_content"
         android:background="#77020000"
         tools:context=".MainActivity">
-
-
         <TextView
             android:id="@+id/nature4_text"
             android:layout_width="wrap_content"
@@ -112,7 +110,7 @@
             android:layout_marginTop="92dp"
             android:layout_marginEnd="56dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.265"
+            app:layout_constraintHorizontal_bias="0.4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nature4_text"
             app:srcCompat="@drawable/nature4" />
@@ -137,7 +135,6 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="154dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.385"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nature2_text"
             app:srcCompat="@drawable/nature2" />
@@ -148,9 +145,8 @@
             android:layout_height="427dp"
             android:layout_marginStart="88dp"
             android:layout_marginTop="80dp"
-            android:layout_marginEnd="87dp"
+            android:layout_marginEnd="88dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.321"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nature3_text"
             app:srcCompat="@drawable/nature3" />
@@ -181,6 +177,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nature6_text"
             app:srcCompat="@drawable/nature6" />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

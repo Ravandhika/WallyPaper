@@ -6,6 +6,7 @@ import android.app.WallpaperManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class NatureActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -59,30 +60,40 @@ public class NatureActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View view){
         if (view == nature1){
             ChangeWallpaper(wallpapers[0]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Galaxy",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == nature2){
             ChangeWallpaper(wallpapers[1]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Lake View",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == nature3){
             ChangeWallpaper(wallpapers[2]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Summer Tree",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == nature4){
             ChangeWallpaper(wallpapers[3]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Junlge Mist",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == nature5){
             ChangeWallpaper(wallpapers[4]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Ship on Sunset",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == nature6){
             ChangeWallpaper(wallpapers[5]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Road Star",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
-        else{
-            System.err.println();
-        }
+
     }
 }

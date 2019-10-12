@@ -1,9 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MinimalistActivity">
+    android:background="#77020000"
+    android:clickable="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77020000"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/minimalist1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginEnd="248dp"
+            android:text="Whale On Deep Sea"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/minimalist2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="248dp"
+            android:text="Boat in the cloud"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist1" />
+
+        <TextView
+            android:id="@+id/minimalist3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="248dp"
+            android:text="bike on saturn"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist2" />
+
+        <TextView
+            android:id="@+id/minimalist4_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="178dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="178dp"
+            android:text="Dream Bike"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist3" />
+
+        <TextView
+            android:id="@+id/minimalist5_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="2488dp"
+            android:layout_marginEnd="248dp"
+            android:text="Red Button"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/minimalist6_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="3120dp"
+            android:layout_marginEnd="248dp"
+            android:text="Star Wars"
+            android:textColor="#F2FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/minimalist1"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="38dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist1_text"
+            app:srcCompat="@drawable/minimalist1" />
+
+        <ImageButton
+            android:id="@+id/minimalist2"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="154dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist2_text"
+            app:srcCompat="@drawable/minimalist2" />
+
+        <ImageButton
+            android:id="@+id/minimalist3"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="87dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist3_text"
+            app:srcCompat="@drawable/minimalist3" />
+
+        <ImageButton
+            android:id="@+id/minimalist4"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist4_text"
+            app:srcCompat="@drawable/minimalist4" />
+
+        <ImageButton
+            android:id="@+id/minimalist5"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="87dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist5_text"
+            app:srcCompat="@drawable/minimalist5" />
+
+        <ImageButton
+            android:id="@+id/minimalist6"
+            android:layout_width="274dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="87dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minimalist6_text"
+            app:srcCompat="@drawable/minimalist6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

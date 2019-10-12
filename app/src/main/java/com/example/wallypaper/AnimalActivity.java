@@ -6,6 +6,7 @@ import android.app.WallpaperManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class AnimalActivity extends AppCompatActivity implements View.OnClickListener{
     private int[] wallpapers;
@@ -57,30 +58,39 @@ public class AnimalActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View view){
         if (view == animal1){
             ChangeWallpaper(wallpapers[0]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Owl",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == animal2){
             ChangeWallpaper(wallpapers[1]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Black Cat",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == animal3){
             ChangeWallpaper(wallpapers[2]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Blue Butterfly",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == animal4){
             ChangeWallpaper(wallpapers[3]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Duck",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == animal5){
             ChangeWallpaper(wallpapers[4]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Fox on Nature",Toast.LENGTH_SHORT);
+            toast.show();
             return;
         }
         else if (view == animal6){
             ChangeWallpaper(wallpapers[5]);
+            Toast toast = Toast.makeText(getApplicationContext(), "Wallpaper Diganti Menjadi Turtles",Toast.LENGTH_SHORT);
+            toast.show();
             return;
-        }
-        else{
-            System.err.println();
         }
     }
 }
